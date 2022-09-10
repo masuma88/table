@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLTABLE</title>
+    <style>
+        table,td,th{
+            border: 3px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 700px;
+            height: 400px;
+            
+        }
+        .container{
+            text-align: center;
+        } 
+        .s{
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table class="s">
+            <thead>
+                <tr>
+                    <th style="background-color:pink">Logo</th>
+                    <th style="background-color:oldlace" colspan="3">Top Menu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="background-color:oldlace"   rowspan="4">SideMenu</td>
+                    <td style="background-color:cadetblue">World news</td>
+                    <td style="background-color:cadetblue">Financial</td>
+                    <td style="background-color:pink"  rowspan="4">List of Ads</td>
+                </tr>
+                <tr>
+                    <td style="background-color:cadetblue" rowspan="4">Technology</td>
+                    <td style="background-color:cadetblue">Sports</td>
+                </tr>
+            </tbody>
+            <footer>
+                <tr>
+                    <td style="background-color:silver" colspan="4">Footer</td>
+                </tr>
+            </footer>
+        </table>
+    </div>
+</body>
+</html>
